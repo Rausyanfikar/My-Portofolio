@@ -22,7 +22,7 @@ export default class HomePage extends Component {
         id: 3,
         title: 'Daftar Karyawan',
         deskripsi: 'deskripsi',
-        image: 'https://daftar-karyawan-api.vercel.app',
+        image: 'https://Rausyanfikar/src/assets/karyawan.jpg',
       },
       {
         id: 4,
