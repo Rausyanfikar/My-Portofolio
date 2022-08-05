@@ -11,7 +11,7 @@ export default class Card extends Component {
       <div className="flex flex-row bg-[#0a192f] text-white">
         <div className="mx-10 list-disc  ">
           <div className="p-5  sm:w-full flex justify-center flex-col items-center m-auto ">
-            <a href="https://reksadana-manulife.com/" target="_blank" rel="noopener noreferrer" className="text-xl font-bold mb-4 block border-b-4 border-[rgb(39,123,53)]">
+            <a href={this.props.link} target="_blank" rel="noopener noreferrer" className="text-xl font-bold mb-4 block border-b-4 border-[rgb(39,123,53)]">
               {this.props.title}
             </a>
             <div className=" h-auto w-auto">
