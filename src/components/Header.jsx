@@ -1,21 +1,21 @@
 import React from 'react';
 import { FaLinkedin, FaGithub, FaYoutube } from 'react-icons/fa';
 import { IconContext } from 'react-icons';
-import img from '../assets/fik.png';
+import img from '../assets/rausyan.png';
 
 const Header = () => {
   return (
-    <div className="md:flex flex-col justify-center mt-3">
+    <div className="md:flex flex-col justify-center  bg-[#0a192f]">
       {/* photo */}
       <div className="flex justify-center">
-        <img src={img} width="150" height="150" alt="rausyanfikar" className="rounded-full" />
+        <img src={img} width="150" height="150" alt="rausyanfikar" className="" />
       </div>
 
       {/* text */}
-      <div className="px-8 w-full flex justify-center ">
+      <div className="px-8 w-full flex-col justify-center ">
         {/* name */}
-        <div className="flex flex-col justify-center items-center">
-          <h1 className="sm:text-2xl mt-3 pb-8 ">Muhammad Rausyan Fikar</h1>
+        <div className="flex flex-col justify-center items-center text-white">
+          <h1 className="sm:text-2xl mt-3 pb-8  ">Muhammad Rausyan Fikar</h1>
 
           {/* description */}
           <div className="flex justify-center sm:w-1/2 ">
