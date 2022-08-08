@@ -4,7 +4,7 @@ import { Navbar } from './Navbar';
 
 const Layout = (props) => {
   return (
-    <div className="bg-slate-400 h-full w-full">
+    <div className="bg-[#0a192f] h-full w-full">
       <Navbar />
       <div>{props.children}</div>
     </div>

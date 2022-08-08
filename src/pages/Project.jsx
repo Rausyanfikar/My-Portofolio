@@ -12,19 +12,25 @@ export default class Project extends Component {
         image: 'https://user-images.githubusercontent.com/105417100/182867809-3531b0dd-9736-47e2-b77e-c78241b5796c.png',
         link: 'https://wisata-foodie.vercel.app/',
       },
-
       {
-        id: 3,
+        id: 2,
         title: 'Daftar Karyawan',
         deskripsi: 'Website list of karyawan with feature searh and using API random user.',
         image: 'https://user-images.githubusercontent.com/105417100/182610109-f64f2c5d-458d-4cbe-a884-6340f31a76ef.png',
         link: 'https://daftar-karyawan-api.vercel.app/',
       },
       {
+        id: 3,
+        title: 'Restaurant Nusantara',
+        deskripsi: 'Website restaurant for order food and drink indonesian food with feature CRUD.',
+        image: 'https://user-images.githubusercontent.com/105417100/183360500-2d01c39d-12be-4a6a-adef-00c4950e6dcc.jpg',
+        link: 'https://github.com/Rausyanfikar/Resto-Nusantara',
+      },
+      {
         id: 4,
         title: 'To Do CRUD',
         deskripsi: 'Making a simple todo list application to make daily notes easier. Has many features like  add todo, edit todo, delete todo. This web creation uses ReactJS and TailwindCSS.',
-        image: 'https://user-images.githubusercontent.com/105417100/182870138-29a1480f-d63d-4d42-b04e-57a2213c1f3c.jpeg',
+        image: 'https://user-images.githubusercontent.com/105417100/183146146-d30ef271-6a15-494d-8c71-2191c952a056.png',
         link: 'https://to-do-list-app-henna-xi.vercel.app/',
       },
       {
